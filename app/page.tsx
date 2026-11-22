@@ -38,7 +38,7 @@ export default function Home() {
     <main className="min-h-screen overflow-hidden bg-[#0b1020] text-white">
       <header className="relative z-50 flex items-center justify-between border-b border-white/10 px-6 py-5 md:px-16">
         <a href="#accueil" className="text-2xl font-bold tracking-wide">
-          NUVORA<span className="text-violet-400">.</span>
+          ONOVA<span className="text-violet-400"> TECH.</span>
         </a>
 
         <nav className="hidden items-center gap-8 text-sm text-gray-300 md:flex">
@@ -101,16 +101,16 @@ export default function Home() {
 
         <div className="relative mx-auto max-w-4xl animate-fade-up">
           <p className="mb-6 text-sm font-semibold uppercase tracking-[0.3em] text-violet-300">
-            Votre partenaire digital
+            Technology • Creativity • Innovation
           </p>
 
           <h1 className="text-4xl font-bold leading-tight sm:text-5xl md:text-7xl">
-            Donnons vie à vos
-            <span className="block text-violet-400"> idées digitales.</span>
+            Building Your
+            <span className="block text-violet-400">Digital Future.</span>
           </h1>
 
           <p className="mx-auto mt-8 max-w-2xl text-base leading-8 text-gray-400 md:text-lg">
-            Nuvora Digital accompagne les petites entreprises dans leur
+            ONOVA TECH accompagne les petites entreprises dans leur
             transformation digitale grâce à des solutions web modernes,
             créatives et accessibles.
           </p>
@@ -191,18 +191,17 @@ export default function Home() {
             </a>
           </div>
 
-<div className="mt-6 rounded-2xl border border-white/10 bg-[#11182b] p-7 md:p-12">
-  <p className="text-sm text-violet-300">Projet 02 · Restauration</p>
-  <h3 className="mt-4 text-3xl font-bold">LE COMPTOIR</h3>
-  <p className="mt-4 max-w-xl leading-7 text-gray-400">
-    Un concept de site vitrine pour restaurant avec présentation
-    du menu, des spécialités et des informations pratiques.
-  </p>
-  <span className="mt-8 inline-block rounded-full border border-violet-400/30 px-4 py-2 text-sm text-violet-300">
-    Démo à venir
-  </span>
-</div>
-
+          <div className="mt-6 rounded-2xl border border-white/10 bg-[#11182b] p-7 md:p-12">
+            <p className="text-sm text-violet-300">Projet 02 · Restauration</p>
+            <h3 className="mt-4 text-3xl font-bold">LE COMPTOIR</h3>
+            <p className="mt-4 max-w-xl leading-7 text-gray-400">
+              Un concept de site vitrine pour restaurant avec présentation
+              du menu, des spécialités et des informations pratiques.
+            </p>
+            <span className="mt-8 inline-block rounded-full border border-violet-400/30 px-4 py-2 text-sm text-violet-300">
+              Démo à venir
+            </span>
+          </div>
         </div>
       </section>
 
@@ -214,7 +213,9 @@ export default function Home() {
           Parlons de vos idées et construisons ensemble votre présence digitale.
         </p>
         <a
-         href="https://wa.me/21626339144?text=Bonjour%20Nuvora%20Digital%2C%20je%20souhaite%20demander%20un%20devis."
+          href="https://wa.me/21626339144?text=Bonjour%20ONOVA%20TECH%2C%20je%20souhaite%20demander%20un%20devis."
+          target="_blank"
+          rel="noopener noreferrer"
           className="mt-8 inline-block rounded-full bg-violet-500 px-8 py-4 font-semibold transition hover:bg-violet-600"
         >
           Discuter sur WhatsApp
@@ -222,19 +223,18 @@ export default function Home() {
       </section>
 
       <footer className="border-t border-white/10 px-6 py-8 text-center text-sm text-gray-500">
-        © 2026 Nuvora Digital — Tous droits réservés.
+        © 2026 ONOVA TECH — Tous droits réservés.
       </footer>
 
-<a
-  href="https://wa.me/21626339144?text=Bonjour%20Nuvora%20Digital%2C%20je%20souhaite%20avoir%20plus%20d'informations."
-  target="_blank"
-  rel="noopener noreferrer"
-  aria-label="Contacter Nuvora Digital sur WhatsApp"
-  className="fixed bottom-6 right-6 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-2xl shadow-lg transition hover:scale-110 hover:bg-green-600"
->
-  <span aria-hidden="true">☏</span>
-</a>
-
+      <a
+        href="https://wa.me/21626339144?text=Bonjour%20ONOVA%20TECH%2C%20je%20souhaite%20avoir%20plus%20d'informations."
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Contacter ONOVA TECH sur WhatsApp"
+        className="fixed bottom-6 right-6 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-2xl shadow-lg transition hover:scale-110 hover:bg-green-600"
+      >
+        <span aria-hidden="true">☏</span>
+      </a>
     </main>
   );
 }
